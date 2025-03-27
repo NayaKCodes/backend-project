@@ -2,18 +2,21 @@
   "name": "project",
   "version": "1.0.0",
   "description": "a backend project",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
-    },
+  },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Yash Nayak",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.0",
+    "prettier": "^3.5.3"
   }
 }
